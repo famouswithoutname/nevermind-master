@@ -78,6 +78,38 @@ section
 padding-bottom: 25px;
 }
 
+.banners_scrol
+{
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.banners_scrol a i 
+{
+  color: #3d7700;
+  font-size: 30px;
+  padding: 5px 5px;
+  
+  border-radius: 50%;
+}
+
+.banners_scrol a i:hover 
+{
+  background-color: yellowgreen;
+}
+
+.banners_scrol img
+{
+  max-height: 250px;
+}
+
+/*.banners_scrol img:first-child, banners_scrol img:last-child*/
+
+
 .main_text
 {
   text-align: center;
